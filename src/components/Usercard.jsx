@@ -4,7 +4,7 @@ const Usercard = ({ user, deleteUser, updateUser, id }) => {
       {/* User Image */}
       <div className="relative h-52 overflow-hidden bg-gray-900">
         <img
-          className="h-full w-full object-contain object-center"
+          className="h-full w-full object-cover object-center"
           src={user.image}
           alt={user.name}
         />
