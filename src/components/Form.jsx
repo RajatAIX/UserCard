@@ -39,7 +39,7 @@ const Form = ({
 
     reset();
     setEditUser(null);
-    setToggle(true);
+    setToggle((prev) => !prev);
   };
 
   return (
